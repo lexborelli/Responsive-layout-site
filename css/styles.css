@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -20,7 +22,7 @@ nav {
   font-family: "Roboto", Arial, Verdana;
   font-weight: 400;
   letter-spacing: .05em;
-  background-color: #829356;
+  background-color: #D3D3D3;
   padding:25px;
 }
 
@@ -50,6 +52,26 @@ h1 a, .top-nav a {
   text-transform: uppercase;
 }
 
+.container {
+  max-width: 1100px;
+  padding: 10px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.col {
+  margin: 10px;
+  min-height: 250px;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 5px;
+}
+
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6 {
+  background-color: white;
+}
+
 @media (min-width: 768px) {
   .top-nav {
     margin-top: 0;
@@ -69,6 +91,15 @@ h1 a, .top-nav a {
 .top-nav a {
   color: #fff;
   }
+
+  .container {
+    display: flex;
+    flex-wrap:wrap;
+  }
+
+  .col{
+    flex-basis: calc(50% - 20px);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -81,6 +112,10 @@ nav{
   .top-nav,
   .top-nav li {
     width: initial;
-    margine-bottom: 0; 
+    margine-bottom: 0;
+  }
+
+  .col{
+    flex-basis: calc(33.333% - 20px);
   }
 }
