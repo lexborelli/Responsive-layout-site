@@ -111,8 +111,8 @@ h1 a, .top-nav a {
   .profile {
     box-sizing: border-box;
     justify-content: center;
-    width: 380px;
-    height: 390px;
+  min-width: 380px;
+    min-height: 390px;
     display: block;
     margin-left: auto;
     margin-right: auto;
