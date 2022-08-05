@@ -97,9 +97,34 @@ h1 a, .top-nav a {
     flex-wrap:wrap;
   }
 
-  .col{
+  .col {
     flex-basis: calc(50% - 20px);
   }
+
+  .profile {
+    display: block;
+    border-radius: 25%;
+    margin: 20px auto;
+    width: 35%;
+    height: 35%;
+    border: 4px solid grey;
+  }
+
+  #portfolio, #contact {
+    padding: 20px 1px;
+    text-transform:uppercase;
+    color: black;
+    font-size: 13px;
+    }
+
+/* section */
+
+.port {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height:58%;
+}
 }
 
 @media (min-width: 1024px) {
