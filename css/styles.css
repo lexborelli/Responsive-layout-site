@@ -5,12 +5,8 @@
 }
 
 body {
-display: grid;
-place-items: center;
 margin: 0 auto;
 max-width: 1024px;
-
-
 }
 
 ul {
@@ -87,6 +83,12 @@ h1 a, .top-nav a {
 padding: 40px 0;
 margin: 0 30px;
 }
+.profile {
+  display: block;
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+}
 
 @media (min-width: 768px) {
   .top-nav {
@@ -117,11 +119,7 @@ margin: 0 30px;
     flex-basis: calc(50% - 20px);
   }
 
-  .profile {
-    display: inline-block;
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
+  .profile{
     min-width: 380px;
     min-height: 390px;
   }
