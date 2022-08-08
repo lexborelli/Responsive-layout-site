@@ -114,13 +114,13 @@ margin: 0 30px;
   }
 
   .profile {
-    display:inline-flex;
+    display: flex;
     box-sizing: border-box;
     justify-content: center;
-  min-width: 380px;
+    align-items: center;
+    min-width: 380px;
     min-height: 390px;
-    margin: 0 40px;
-    padding: 20px 50px;
+    border-radius: 50%; 
   }
 
   h1 {
