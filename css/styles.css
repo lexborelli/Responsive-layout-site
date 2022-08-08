@@ -85,6 +85,7 @@ margin: 0 30px;
 
 .profile {
   display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
@@ -119,8 +120,7 @@ margin: 0 30px;
     flex-basis: calc(50% - 20px);
   }
 
-  .profile{
-
+  .profile {
     min-width: 380px;
     min-height: 390px;
   }
