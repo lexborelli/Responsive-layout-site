@@ -5,8 +5,12 @@
 }
 
 body {
+display: grid;
+place-items: center;
 margin: 0 auto;
 max-width: 1024px;
+
+
 }
 
 ul {
@@ -120,7 +124,6 @@ margin: 0 30px;
     align-items: center;
     min-width: 380px;
     min-height: 390px;
-    border-radius: 50%; 
   }
 
   h1 {
