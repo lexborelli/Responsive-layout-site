@@ -80,8 +80,8 @@ h1 a, .top-nav a {
 }
 
 .p1 {
-padding: 40px 0px;
-margin: 0px 30px;
+padding: 40px 0;
+margin: 0 30px;
 }
 
 @media (min-width: 768px) {
@@ -114,11 +114,12 @@ margin: 0px 30px;
   }
 
   .profile {
+    display:inline-flex;
     box-sizing: border-box;
     justify-content: center;
   min-width: 380px;
     min-height: 390px;
-    margin: 0px 40px; 
+    margin: 0 40px;
     padding: 20px 50px;
   }
 
