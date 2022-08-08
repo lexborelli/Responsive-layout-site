@@ -3,8 +3,10 @@
 }
 
 body {
-margin: 0 auto;
-max-width: 1024px;
+  display:flex;
+  margin: 0 auto;
+  flex direction: column;
+  max-width: 1024px;
 }
 
 ul {
@@ -88,7 +90,6 @@ margin: 0 30px;
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 @media (min-width: 768px) {
