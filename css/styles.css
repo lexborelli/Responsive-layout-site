@@ -118,7 +118,7 @@ margin: 0 30px;
   }
 
   .profile {
-    display: flex;
+    display: inline-block;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
