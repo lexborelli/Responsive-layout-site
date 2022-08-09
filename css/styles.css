@@ -93,9 +93,11 @@ margin: 0 30px;
 }
 
 .con {
-display: inline-flex;
-box-sizing: border-box;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 50%; 
 }
 
 @media (min-width: 768px) {
@@ -136,11 +138,6 @@ align-items: center;
     padding-bottom: 20px;
     padding-top: 20px;
   }
-
-.con {
-min-width: 600px;
-min-height: 400px;
-}
 
   #portfolio, #contact {
     padding: 20px 1px;
