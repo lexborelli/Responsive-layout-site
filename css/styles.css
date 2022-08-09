@@ -92,6 +92,11 @@ margin: 0 30px;
   align-items: center;
 }
 
+.pic{
+display: flex;
+justify-content: center;
+}
+
 @media (min-width: 768px) {
   .top-nav {
     margin-top: 0;
