@@ -94,7 +94,7 @@ margin: 0 30px;
 
 .pic{
 display: flex;
-justify-content: center;
+align-items: center;
 }
 
 @media (min-width: 768px) {
@@ -137,8 +137,8 @@ justify-content: center;
   }
 
 .pic {
-min-width: 400px;
-min-height: 400px;
+width: 400px;
+height: 400px;
 }
 
   #portfolio, #contact {
