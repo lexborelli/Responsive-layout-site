@@ -94,8 +94,8 @@ margin: 0 30px;
 
 .pic {
 display: inline-flex;
-align-items: center;
 box-sizing: border-box;
+align-items: center;
 }
 
 @media (min-width: 768px) {
@@ -106,7 +106,7 @@ box-sizing: border-box;
   .top-nav li {
     display: inline-block;
     width: auto;
-    margin-right: 15px;
+    margin-right: 2px;
     background-color: transparent;
   }
 
@@ -138,9 +138,8 @@ box-sizing: border-box;
   }
 
 .pic {
-min-width: 400px;
+min-width: 600px;
 min-height: 400px;
-max-width: 700px;
 }
 
   #portfolio, #contact {
