@@ -127,6 +127,7 @@ footer {
   display:flex;
   justify-content: center;
   text-align: center;
+  flex-wrap: wrap;
   text-transform: uppercase;
   font-weight: 400;
   color: black;
