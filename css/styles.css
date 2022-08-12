@@ -113,11 +113,12 @@ padding-bottom: 25px;
 
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: auto;
-  padding-top: 1px;
+  flex-wrap: wrap
+  margin-top: 10px;
+  padding-top: 10px;
   padding-bottom: 20px;
   height: 100px;
   background-color: #D3D3D3;
