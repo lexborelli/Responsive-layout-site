@@ -142,14 +142,13 @@ footer {
 
 .end {
   display: flex;
-  justify-content: center;
-  margin: 0px 20px;
+  margin: 0px 5px;
   font-weight: 400;
 }
 
 .interested, .info {
 display: flex;
-flex-wrap: wrap;
+flex-direction: column;
 text-align: center;
 justify-content: center;
 line-height: 0.5em;
