@@ -15,7 +15,7 @@ padding-left: 0;
 a {
   text-decoration: none;
   text-transform: uppercase;
-  color:white;
+  color:black;
 }
 
 nav {
@@ -123,8 +123,7 @@ footer {
   padding-bottom: 20px;
   height: 100px;
   background-color: #D3D3D3;
-  height: 600px;
-  width:600px;
+  width:100%;
 }
 
 .connect {
@@ -159,12 +158,18 @@ display: flex;
 flex-direction: column;
 text-align: center;
 justify-content: center;
-line-height: 1.5;
+line-height: 32px;
 color: #A9A9A9;
 font-size: small;
 padding: 25px 20px;
 }
 
+.footer-nav li {
+  text-align: center;
+  padding: 10px 0;
+  margin: 5px auto;
+  width: 100%;
+}
 
 @media (min-width: 768px) {
   .top-nav {
@@ -211,6 +216,7 @@ padding: 25px 20px;
     color: black;
     font-size: 13px;
     }
+
 
 
 @media (min-width: 1024px) {
