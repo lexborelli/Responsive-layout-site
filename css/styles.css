@@ -123,18 +123,17 @@ footer {
   padding-bottom: 20px;
   height: 100px;
   background-color: #D3D3D3;
-  background-size: cover; 
+  height: 600px;
+  width:600px;
 }
 
 .connect {
-  padding: 50px;
+  padding: 40px;
   display: flex;
   font-weight: 300;
   text-transform: uppercase;
   color: black;
 }
-
-
 
 #contact {
   display:flex;
