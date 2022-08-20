@@ -123,6 +123,7 @@ footer {
   padding-bottom: 20px;
   height: 100px;
   background-color: #D3D3D3;
+  background-size: cover; 
 }
 
 .connect {
