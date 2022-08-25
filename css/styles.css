@@ -123,7 +123,7 @@ footer {
   padding-bottom: 20px;
   height: 100px;
   background-color: #D3D3D3;
-  width:100%;
+
 }
 
 .connect {
@@ -151,6 +151,10 @@ footer {
 
 .interested{
 color: #5e5e5e;
+}
+
+.full{
+  display:  none;
 }
 
 .interested, .info {
@@ -207,6 +211,15 @@ font-size: small;
   h1 {
     padding-bottom: 20px;
     padding-top: 20px;
+  }
+
+  .top {
+    display: none;
+  }
+
+  .full {
+    display:inline-block;
+    margin-left: 20px;
   }
 
   #portfolio, #contact {
