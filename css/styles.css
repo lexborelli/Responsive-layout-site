@@ -154,7 +154,8 @@ color: #5e5e5e;
 }
 
 .full {
-  display:  none;
+  display: none;
+  justify-content: center;
 }
 
 .interested, .info {
@@ -218,7 +219,7 @@ font-size: small;
   }
 
   .full {
-    display:inline-block;
+    display: inline-block;
     margin-left: 20px;
   }
 
