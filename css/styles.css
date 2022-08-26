@@ -218,6 +218,11 @@ font-size: small;
     color: black;
     font-size: 13px;
     }
+
+    .p1 {
+      flex-grow: 2;
+      text-align: left;
+    }
   }
 
 
