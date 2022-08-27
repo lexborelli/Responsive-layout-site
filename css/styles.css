@@ -222,9 +222,8 @@ font-size: small;
     font-size: 13px;
     }
 
-    .p1 {
+  .p1 {
 text-align: left;
-flex-grow: 2; 
 }
   }
 
