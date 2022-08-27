@@ -225,6 +225,7 @@ font-size: small;
 
 .lex {
   flex-grow: 2;
+  justify-content: flex-end;
 }
 
 .p1 {
