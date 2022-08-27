@@ -223,13 +223,13 @@ font-size: small;
     font-size: 13px;
     }
 
-.lex {
-order:2
-}
+  .lex {
+  justify-content: flex-end;
+  }
 
-.p1 {
-order:1;
-}
+  .p1 {
+  justify-content: flex-start;
+  }
   }
 
 
