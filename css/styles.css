@@ -225,13 +225,10 @@ font-size: small;
 
 .lex {
   flex-grow: 2;
-  text-align: start;
-
 }
 
 .p1 {
-  order:-1;
-text-align: left;
+  align-self: flex-start;
 }
   }
 
