@@ -223,13 +223,22 @@ font-size: small;
     font-size: 13px;
     }
 
-  .lex {
-  justify-content: flex-end;
-  }
+    .p1 {
+      justify-content: center;
+    }
 
-  .p1 {
-  justify-content: flex-start;
-  }
+    .top {
+      display: none;
+}
+
+    .footer-nav {
+      flex-direction: row;
+    }
+
+    .last {
+      flex-grow:2;
+    }
+
   }
 
 
