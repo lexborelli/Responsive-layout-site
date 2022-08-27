@@ -231,7 +231,8 @@ font-size: small;
       display: none;
 }
 
-    .footer-nav {
+    .footer-nav li{
+      display: flex;
       flex-direction: row;
     }
 
