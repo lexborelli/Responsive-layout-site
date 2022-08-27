@@ -224,12 +224,11 @@ font-size: small;
     }
 
 .lex {
-  flex-grow: 2;
-  justify-content: flex-end;
+order:2
 }
 
 .p1 {
-  align-self: flex-start;
+order:1;
 }
   }
 
