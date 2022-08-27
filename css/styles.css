@@ -82,7 +82,6 @@ h1 a, .top-nav a {
 }
 
 .p1 {
-display: flex; 
 padding: 40px 0;
 margin: 0 30px;
 }
@@ -197,6 +196,7 @@ font-size: small;
   }
 
   .profile {
+    display: flex;
     min-width: 380px;
     min-height: 390px;
   }
@@ -223,9 +223,9 @@ font-size: small;
     }
 
     .p1 {
-      flex-grow: 2;
-      margin-left: 55px;
-    }
+text-align: left;
+flex-grow: 2; 
+}
   }
 
 
