@@ -222,6 +222,10 @@ font-size: small;
     font-size: 13px;
     }
 
+.lex {
+  flex-grow: 2;
+}
+
   .p1 {
 text-align: left;
 }
