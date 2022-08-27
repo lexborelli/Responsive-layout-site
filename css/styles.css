@@ -197,6 +197,7 @@ font-size: small;
 
   .profile {
     display: flex;
+    flex-direction: row;
     min-width: 380px;
     min-height: 390px;
   }
@@ -223,11 +224,7 @@ font-size: small;
     }
 
 .lex {
-  justify-content: flex-start;
-}
-
-  .p1 {
-text-align: left;
+  flex-grow: 2; 
 }
   }
 
