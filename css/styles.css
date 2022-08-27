@@ -221,6 +221,7 @@ font-size: small;
 
     .p1 {
       flex-grow: 2;
+      margin-left: 55px; 
     }
   }
 
