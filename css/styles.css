@@ -227,17 +227,13 @@ font-size: small;
       justify-content: center;
     }
 
-    .top {
-      display: none;
-}
-
     .footer-nav li{
       display: flex;
       flex-direction: row;
     }
 
     .last {
-      flex-grow:2;
+      flex-grow:3;
     }
 
   }
