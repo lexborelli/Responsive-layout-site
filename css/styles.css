@@ -217,14 +217,17 @@ font-size: small;
       text-align: center;
     }
 
-    .footer-nav ul {
+    .footer-nav ul, .last, .full {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-    }
+        }
 
     .last {
-      flex-grow: 3;
+      justify-content: flex-start;
+    }
+
+    .full {
+      justify-content: flex-end;
     }
 
   }
