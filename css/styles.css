@@ -154,6 +154,7 @@ font-size: small;
 }
 
 .footer-nav li {
+  text-align: center;
   padding: 10px 0;
   margin: 5px auto;
   width: 100%;
@@ -213,11 +214,13 @@ font-size: small;
 
     .p1 {
       justify-content: center;
+      text-align: center;
     }
 
     .footer-nav ul {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
+      justify-content: space-between;
     }
 
     .last {
