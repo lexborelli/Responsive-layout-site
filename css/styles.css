@@ -206,11 +206,6 @@ font-size: small;
     display: none;
   }
 
-  .full {
-    display: inline-block;
-    margin-left: 20px;
-  }
-
   #portfolio, #contact {
     padding: 20px 1px;
     text-transform:uppercase;
