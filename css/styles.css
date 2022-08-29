@@ -115,11 +115,6 @@ padding-bottom: 25px;
 
 footer {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -160,7 +155,6 @@ font-size: small;
 }
 
 .footer-nav li {
-  text-align: center;
   padding: 10px 0;
   margin: 5px auto;
   width: 100%;
