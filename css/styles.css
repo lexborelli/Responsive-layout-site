@@ -217,7 +217,7 @@ font-size: small;
       text-align: center;
     }
 
-    .footer-nav ul, .last, .full {
+    .footer-nav li, .last, .full {
       display: flex;
       flex-direction: column;
         }
