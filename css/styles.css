@@ -216,7 +216,7 @@ font-size: small;
       text-align: center;
     }
 
-    .footer-nav li, .last, .full {
+    .footer-nav li, {
       display: block;
       flex-direction: row;
         }
