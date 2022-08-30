@@ -222,7 +222,7 @@ font-size: small;
         }
 
     .last {
-      justify-content: flex-start;
+      margin-right: auto;
     }
 
     .full {
