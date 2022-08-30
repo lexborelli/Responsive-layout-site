@@ -225,12 +225,16 @@ font-size: small;
       flex-direction: row;
         }
 
+      .interested {
+        text-align: center;
+        justify-content: center; 
+      }
   }
 
 
 
 @media (min-width: 1024px) {
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -254,7 +258,7 @@ nav{
   footer {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
   }
 
 }
