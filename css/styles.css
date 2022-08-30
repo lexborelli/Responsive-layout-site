@@ -225,14 +225,6 @@ font-size: small;
       flex-direction: row;
         }
 
-    .last {
-      margin-right: auto;
-    }
-
-    .full {
-      justify-content: flex-end;
-    }
-
   }
 
 
