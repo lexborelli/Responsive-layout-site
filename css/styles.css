@@ -219,7 +219,7 @@ font-size: small;
 
     .footer-nav li, .last, .full {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
         }
 
     .last {
