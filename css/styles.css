@@ -224,11 +224,6 @@ font-size: small;
       display: block;
       flex-direction: row;
         }
-
-      .interested {
-        text-align: center;
-        justify-content: center; 
-      }
   }
 
 
