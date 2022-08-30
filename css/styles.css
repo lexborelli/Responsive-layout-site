@@ -216,7 +216,11 @@ font-size: small;
       text-align: center;
     }
 
-    .footer-nav li, {
+    .footer-nav {
+      display: flex;
+    }
+
+    .footer-nav li, .full, .last {
       display: block;
       flex-direction: row;
         }
