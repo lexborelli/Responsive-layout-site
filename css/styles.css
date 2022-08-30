@@ -217,7 +217,7 @@ font-size: small;
     }
 
     .footer-nav li, .last, .full {
-      display: flex;
+      display: block;
       flex-direction: row;
         }
 
